@@ -1,0 +1,13 @@
+name: whyUtils
+version: '1.0-SNAPSHOT'
+main: wus.Main
+api-version: 1.19
+authors: [ pwned ]
+description: whyBodyGuard
+commands:
+  korumaitem:
+    description: ""
+  koruma:
+    description: ""
+  korumaxfd:
+    description: ""

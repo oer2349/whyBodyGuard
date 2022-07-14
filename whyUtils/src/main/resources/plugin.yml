@@ -1,0 +1,13 @@
+name: whyUtils
+version: '${project.version}'
+main: wus.Main
+api-version: 1.19
+authors: [ pwned ]
+description: whyBodyGuard
+commands:
+  korumaitem:
+    description: ""
+  koruma:
+    description: ""
+  korumadeneme:
+    description: ""
