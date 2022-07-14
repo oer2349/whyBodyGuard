@@ -22,11 +22,13 @@ public class Item implements CommandExecutor {
         if (sender instanceof Player) {
             p = (Player) ((Object) sender);
             Economy eco = Main.getEconomy();
+
             eco.withdrawPlayer(p.getPlayer(), 100000000.0);
             ItemStack item = new ItemStack(Material.MONSTER_EGG);
             ItemMeta meta = item.getItemMeta();
             meta.setDisplayName(ChatColor.YELLOW + "KORUMA");
             item.setItemMeta(meta);
+
             p.getInventory().addItem(new ItemStack[]{item});
             p.sendMessage(ChatColor.BLUE + "Koruma yumurtan envanterine eklendi");
         }
